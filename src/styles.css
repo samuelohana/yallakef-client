@@ -2,6 +2,22 @@
 
 @import 'tailwindcss';
 
+/* Yallakef Custom Theme - Warm & Friendly palette */
+@theme {
+  /* Primary - Peach tones */
+  --color-primary: #F98F7B;
+  --color-primary-dark: #E8705D;
+  --color-primary-light: #FECFC5;
+  
+  /* Accent - Navy blue */
+  --color-accent: #1E3A5F;
+  --color-accent-light: #2D4A6F;
+  
+  /* Cream backgrounds */
+  --color-cream: #FFF9F5;
+  --color-cream-dark: #FFF0E8;
+}
+
 /* Custom scrollbar for better aesthetics */
 .no-scrollbar::-webkit-scrollbar {
   display: none;
@@ -13,5 +29,5 @@
 
 /* Base styles */
 body {
-  @apply bg-gray-50 font-sans;
+  @apply bg-cream font-sans;
 }

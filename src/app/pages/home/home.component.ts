@@ -57,7 +57,7 @@ import { Activity } from '../../models/activity.model';
         <div class="text-center mt-12">
           <button
             (click)="loadMore()"
-            class="bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3 px-8 rounded-lg text-lg transition duration-300"
+            class="bg-primary hover:bg-primary-dark text-white font-bold py-3 px-8 rounded-lg text-lg transition duration-300"
           >
             Voir plus
           </button>

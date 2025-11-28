@@ -43,7 +43,7 @@ import { Activity } from '../../models/activity.model';
           }
         </div>
         <div class="p-4 flex flex-col flex-grow">
-          <p class="text-sm font-semibold text-emerald-600 uppercase">
+          <p class="text-sm font-semibold text-primary uppercase">
             {{ act.category }}
           </p>
           <h3 class="text-lg font-bold text-gray-900 mt-1 truncate">

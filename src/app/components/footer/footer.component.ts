@@ -3,7 +3,7 @@ import { Component, ChangeDetectionStrategy } from '@angular/core';
 @Component({
   selector: 'app-footer',
   template: `
-    <footer class="bg-gray-800 text-white">
+    <footer class="bg-accent text-white">
       <div class="w-full max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
           <div>
@@ -94,7 +94,7 @@ import { Component, ChangeDetectionStrategy } from '@angular/core';
           </div>
         </div>
         <div
-          class="mt-8 border-t border-gray-700 pt-8 flex flex-col md:flex-row items-center justify-between"
+          class="mt-8 border-t border-accent-light pt-8 flex flex-col md:flex-row items-center justify-between"
         >
           <p class="text-base text-gray-400 md:order-1">
             &copy; 2024 Yallakef. Tous droits réservés.

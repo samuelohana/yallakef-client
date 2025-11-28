@@ -8,7 +8,7 @@ import { Component, ChangeDetectionStrategy } from '@angular/core';
         <div class="flex items-center justify-between h-16">
           <!-- Logo -->
           <div class="flex-shrink-0">
-            <a href="/" class="text-2xl font-bold text-emerald-600">Yallakef</a>
+            <a href="/" class="text-2xl font-bold text-primary">Yallakef</a>
           </div>
 
           <!-- Search Bar (Desktop) -->
@@ -17,7 +17,7 @@ import { Component, ChangeDetectionStrategy } from '@angular/core';
               <input
                 type="text"
                 placeholder="Quelle activité recherchez-vous ?"
-                class="w-full bg-gray-100 border border-gray-200 rounded-full py-2 pl-10 pr-4 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent"
+                class="w-full bg-gray-100 border border-gray-200 rounded-full py-2 pl-10 pr-4 focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
               />
               <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
                 <svg
@@ -40,16 +40,16 @@ import { Component, ChangeDetectionStrategy } from '@angular/core';
           <div class="flex items-center space-x-4">
             <a
               href="#"
-              class="hidden lg:block text-gray-600 hover:text-emerald-600 font-medium"
+              class="hidden lg:block text-gray-600 hover:text-primary font-medium"
               >Offrir un cadeau</a
             >
             <a
               href="#"
-              class="hidden lg:block text-gray-600 hover:text-emerald-600 font-medium"
+              class="hidden lg:block text-gray-600 hover:text-primary font-medium"
               >Pro</a
             >
             <button
-              class="p-2 rounded-full text-gray-500 hover:bg-gray-100 hover:text-emerald-600"
+              class="p-2 rounded-full text-gray-500 hover:bg-gray-100 hover:text-primary"
             >
               <svg
                 class="h-6 w-6"
@@ -67,7 +67,7 @@ import { Component, ChangeDetectionStrategy } from '@angular/core';
               </svg>
             </button>
             <button
-              class="p-2 rounded-full text-gray-500 hover:bg-gray-100 hover:text-emerald-600"
+              class="p-2 rounded-full text-gray-500 hover:bg-gray-100 hover:text-primary"
             >
               <svg
                 class="h-6 w-6"

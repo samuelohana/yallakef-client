@@ -16,8 +16,8 @@ interface Category {
             [class]="
               'flex-shrink-0 flex flex-col items-center justify-center space-y-2 w-24 h-24 p-2 rounded-lg border-2 transition-all duration-200 ' +
               (selectedCategory() === category.name
-                ? 'bg-emerald-50 border-emerald-500 shadow-md'
-                : 'bg-white border-gray-200 hover:border-emerald-300 hover:shadow-sm')
+                ? 'bg-primary-light border-primary shadow-md'
+                : 'bg-white border-gray-200 hover:border-primary/50 hover:shadow-sm')
             "
           >
             <div class="w-8 h-8 text-gray-600" [innerHTML]="category.icon"></div>
